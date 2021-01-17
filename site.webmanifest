@@ -1,1 +1,46 @@
-{"name":"","short_name":"","icons":[{"src":"https://1.bp.blogspot.com/-_UaaP49cHkk/YAPqMssyBNI/AAAAAAAA8iE/X50esZGiB3cIkHqoUqkoNjm0f3dv_a9wQCLcBGAsYHQ/s192/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},{"src":"https://1.bp.blogspot.com/-hu1YlPkHdIk/YAPqjTX4w7I/AAAAAAAA8iM/g8uQxZ9KeFQsla7D9PJk9FqcyYDWOXzFwCLcBGAsYHQ/s512/android-chrome-512x512.png","sizes":"512x512","type":"image/png"}],"theme_color":"#ffffff","background_color":"#ffffff","display":"standalone"}
+{
+    "name": "QuranIPFS",
+    "short_name": "QuranIPFS",
+    "icons": [
+        {
+            "src": "https://1.bp.blogspot.com/-_UaaP49cHkk/YAPqMssyBNI/AAAAAAAA8iE/X50esZGiB3cIkHqoUqkoNjm0f3dv_a9wQCLcBGAsYHQ/s192/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "https://1.bp.blogspot.com/-hu1YlPkHdIk/YAPqjTX4w7I/AAAAAAAA8iM/g8uQxZ9KeFQsla7D9PJk9FqcyYDWOXzFwCLcBGAsYHQ/s512/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "start_url": "https://quranipfs.blogspot.com/",
+    "url": "https://quranipfs.blogspot.com",
+    "lang": "Arabic",
+    "orientation": "any",
+    "description": "يسمع لك الموقع بالاستماع للقرآن الكريم مباشرة من المتصفح ، دون تحميل وبنوعية صوت عالية، الاستماع للعديد من القراء وبعدة روايات، تحميل المصحف سواء كاملا أو كل سورة على حدا، التنزيل  M3U للاستماع من مشغل الصوت لديك في الهاتف أو الكمبيوتر",
+    "screenshots": [
+        {
+            "src": "https://1.bp.blogspot.com/-wFfjkZXs5RY/YASNMqSVEQI/AAAAAAAA8i8/Yfx0Mv9OyaAaK6_kM6nqHugFANhAaZaCgCLcBGAsYHQ/s1576/large%2Bscreen2.png",
+            "sizes": "1280x800",
+            "type": "image/png"
+        },
+        {
+            "src": "https://1.bp.blogspot.com/-UcOvMmsxK3E/YASNM_mxGJI/AAAAAAAA8jA/dATxX8epTPMDukgKuSnR1lUJB1GHZw70gCLcBGAsYHQ/s1573/largescreen%2Bscreenshot.png",
+            "sizes": "5710x1573",
+            "type": "image/png"
+        }
+
+            "src": "https://1.bp.blogspot.com/-cRPmUQayxkU/YASNNDS9G_I/AAAAAAAA8jI/12Lb-P4xKqUpNd4TO-4RaNFyYpbNf17ngCLcBGAsYHQ/s503/small%2Bscreen2.png",
+            "sizes": "320x503",
+            "type": "image/png"
+        }
+
+            "src": "https://1.bp.blogspot.com/-3psf7wbyZHo/YASNM1UpW0I/AAAAAAAA8jE/p4OoVp5Dez4AL8Kr7e78iAqmneEnjtiYQCLcBGAsYHQ/s514/small%2Bscreen.png",
+            "sizes": "320x503",
+            "type": "image/png"
+        }
+    ]
+}
