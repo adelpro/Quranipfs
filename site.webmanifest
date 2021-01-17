@@ -1,6 +1,8 @@
 {
     "name": "QuranIPFS",
     "short_name": "QuranIPFS",
+    "categories": ["Islamic", "quran", "قرآن"]
+
     "icons": [
         {
             "src": "https://1.bp.blogspot.com/-_UaaP49cHkk/YAPqMssyBNI/AAAAAAAA8iE/X50esZGiB3cIkHqoUqkoNjm0f3dv_a9wQCLcBGAsYHQ/s192/android-chrome-192x192.png",
