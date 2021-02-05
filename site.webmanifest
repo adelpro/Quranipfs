@@ -12,14 +12,14 @@
             "src": "https://1.bp.blogspot.com/-hu1YlPkHdIk/YAPqjTX4w7I/AAAAAAAA8iM/g8uQxZ9KeFQsla7D9PJk9FqcyYDWOXzFwCLcBGAsYHQ/s512/android-chrome-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
-        }
+        },
     ],
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
     "display": "standalone",
-    "start_url": "https://quranipfs.blogspot.com/",
-    "url": "https://quranipfs.blogspot.com",
+    "start_url": "https://www.quranipfs.com/",
+    "url": "https://www.quranipfst.com",
     "lang": "Arabic",
     "orientation": "any",
-    "description": "يسمع لك الموقع بالاستماع للقرآن الكريم مباشرة من المتصفح ، دون تحميل وبنوعية صوت عالية، الاستماع للعديد من القراء وبعدة روايات، تحميل المصحف سواء كاملا أو كل سورة على حدا، التنزيل  M3U للاستماع من مشغل الصوت لديك في الهاتف أو الكمبيوتر",
+    "description": "يتيح لك الموقع الاستماع للقرآن الكريم مباشرة من المتصفح دون تحميل وبنوعية صوت عالية",
 }  
