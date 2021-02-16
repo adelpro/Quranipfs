@@ -14,6 +14,36 @@
             "type": "image/png"
         }
     ],
+    "shortcuts": [
+         {
+      "name": "حول الموقع",
+      "short_name": "حول الموقع",
+      "description": "معلومات حول الموقع",
+      "url": "https://www.quranipfs.com/p/aboutas.html",
+      "icons": [{ "src": "https://1.bp.blogspot.com/-_UaaP49cHkk/YAPqMssyBNI/AAAAAAAA8iE/X50esZGiB3cIkHqoUqkoNjm0f3dv_a9wQCLcBGAsYHQ/s192/android-chrome-192x192.png", "sizes": "192x192" }]
+    },
+        {
+      "name": "سياسة الخصوصية",
+      "short_name": "سياسة الخصوصية",
+      "description": "سياسة الخصوصية للموقع",
+      "url": "https://www.quranipfs.com/p/privacy.html",
+      "icons": [{ "src": "https://1.bp.blogspot.com/-_UaaP49cHkk/YAPqMssyBNI/AAAAAAAA8iE/X50esZGiB3cIkHqoUqkoNjm0f3dv_a9wQCLcBGAsYHQ/s192/android-chrome-192x192.png", "sizes": "192x192" }]
+    },
+           {
+      "name": "الفهرس",
+      "short_name": "الفهرس",
+      "description": "فهرس الموقع",
+      "url": "https://www.quranipfs.com/p/sitemap.html",
+      "icons": [{ "src": "https://1.bp.blogspot.com/-_UaaP49cHkk/YAPqMssyBNI/AAAAAAAA8iE/X50esZGiB3cIkHqoUqkoNjm0f3dv_a9wQCLcBGAsYHQ/s192/android-chrome-192x192.png", "sizes": "192x192" }]
+    },
+         {
+      "name": "مراسلتنا",
+      "short_name": "مراسلتنا",
+      "description": "مراسلت الموقع",
+      "url": "https://www.quranipfs.com/p/contact-as.html",
+      "icons": [{ "src": "https://1.bp.blogspot.com/-_UaaP49cHkk/YAPqMssyBNI/AAAAAAAA8iE/X50esZGiB3cIkHqoUqkoNjm0f3dv_a9wQCLcBGAsYHQ/s192/android-chrome-192x192.png", "sizes": "192x192" }]
+    }
+  ],
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
     "display": "standalone",
