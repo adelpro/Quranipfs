@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>هزاع البلوشي</title>
+    <meta name="description" content="الاستماع للقرآن الكريم مباشرة من المتصفح، دون تحميل وبنوعية صوت عالية">
+    <meta expr:content='QuranIPFS - قرآن' property='og:site_name'>
+ <!-- Google / Search Engine Tags -->
+  <meta itemprop="name" content="QuranIPFS - قرآن">
+  <meta itemprop="description" content="الاستماع للقرآن الكريم مباشرة من المتصفح، دون تحميل وبنوعية صوت عالية">
+  <meta itemprop="image" content="./images/256x256.png">
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="https://quranipfs.com">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="QuranIPFS - قرآن">
+  <meta property="og:description" content="الاستماع للقرآن الكريم مباشرة من المتصفح، دون تحميل وبنوعية صوت عالية">
+  <meta property="og:image" content="./images/256x256.png">
+  <meta content='blog' property='og:type'>
+  <meta content='./images/256x256.png' property='og:image'>
+  <meta content='512' property='og:image:width'>
+  <meta content='512' property='og:image:height'>
+  <meta content='changethis1' property='fb:admins'>
+  <meta content='https://www.facebook.com/changethis2' property='article:author'>
+  <meta content='ar_AR' property='og:locale'>
+  <meta content='DZ' name='geo.region'>
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="QuranIPFS - قرآن">
+  <meta name="twitter:description" content="الاستماع للقرآن الكريم مباشرة من المتصفح، دون تحميل وبنوعية صوت عالية">
+  <meta name="twitter:image" content="./images/256x256.png">
+  <meta content='@adelpro' name='twitter:creator'>
+  <meta expr:content='يتيح لك الموقع الاستماع للقرآن الكريم مباشرة من المتصفح دون تحميل وبنوعية صوت عالية مع إمكانية التحميل بسرعات عالية' name='description'/>
+  <meta content='Algeria' name='geo.placename'/>
+  <meta content='changethis3' name='Author'/>
+  <meta content="width=device-width, initial-scale=1.0" name='viewport'/>
+  <meta content='قران, مصحف, سعد الغامدي, عبد الباسط عبد الصمد, ماهر المعيقلي, فارس عابد, الشريم' name='keywords'/>
+  <meta charset='UTF-8'>
+  <meta name="يتيح لك الموقع الاستماع للقرآن الكريم دون الحاجة للتنزيل وذلك بالاستعانة بتقنية النظام العالمي للملفات وهي تقنية جديدة وواعدة لتبادل الملفات وتعتبر أحسن من التورنت">
+  <link rel="stylesheet" href=".\css\style.css"> 
+  <script async='async' src='https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js'></script>
+  <script async='async' crossorigin='anonymous' src='https://kit.fontawesome.com/3fb402115d.js'></script>  
+  <!--<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>-->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-messaging.js"></script>
+    <!-- PWA metadata --> 
+  <meta content='#000000' name='theme-color'/>
+  <link href='./images/32x32.png' rel='icon' type='image/x-icon'/>  
+  <link href='./images/192x192.png' rel='icon' sizes='192x192'/>  
+  <link href='./images/32x32.png' rel='icon' sizes='32×32' type='image/png'/>
+  <link href='./images/favicon.ico' rel='icon' sizes='16×16' type='mage/png'/>
+  <link href='./images/32x32.png' rel='shortcut icon' sizes='32x32' type='image/x-icon'/>
+  <link href='./manifest.json' rel='manifest'/>
+  <!-- Add to home screen for Safari on iOS-->
+  <link href='./images/192x192.png' rel='apple-touch-icon'/>  
+  <link href='./images/256x256.png' rel='apple-touch-icon'/>  
+  <meta content='yes' name='apple-mobile-web-app-capable'/>
+  <meta content='black-translucent' name='apple-mobile-web-app-status-bar-style'/>
+  <meta content='Quranipfs' name='apple-mobile-web-app-title'/>
+  <!-- Add to home screen for Windows-->
+  <meta content='./images/512x512.png' name='msapplication-TileImage'/>
+  <meta content='#000000' name='msapplication-TileColor'/>  
+</head>
+
+  <body itemscope itemtype="http://schema.org/WebPage">
+    <header itemscope itemtype="http://schema.org/WPHeader">
+      <img src=".\images\256x256.png" width="256" height="265" class="img-responsive circle" alt="Quranipfs" itemprop="image"></img>
+      <h1 class="center" itemprop="name">QuranIPFS - قرآن</h1>
+      <div class="mynav container center hide-on-small-only"  itemtype="http://www.schema.org/SiteNavigationElement">
+        <ul itemscope id="horizontal-list">
+          <li itemprop="name"><a itemprop="url" href="/support-as.html" class="center-align">إدعمنا</a></li>
+          <li itemprop="name"><a itemprop="url" href="/contact-as.html" class="center-align">إتصل بنا</a></li>
+          <li itemprop="name"><a itemprop="url" href="/sitemap.html" class="center-align">خريطة الموقع</a></li>
+          <li itemprop="name"><a itemprop="url" href="/about-as.html" class="center-align">حول الموقع</a></li>
+          <li itemprop="name"><a itemprop="url" href="/privacy.html" class="center-align">سياسة الخصوصية</a></li>
+          <li itemprop="name"><a itemprop="url" href="/index.html" class="center-align">الصفحة الرئيسية</a></li>
+        </ul>
+      </div>
+      <span class="target hide-on-small-only"></span>
+      <div class="container hide-on-med-and-up center">
+        <a rel='nofollow' class='dropdown-button btn hide-on-med-and-up center' data-beloworigin="true" href='#' data-activates='dropdown1'>القائمة الرئيسية</a>
+        <!-- Dropdown Structure -->
+        <ul id='dropdown1' class='dropdown-content center' itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+          <li itemprop="name"><a itemprop="url" href="/index.html" class="center-align">الصفحة الرئيسية</a></li>
+          <li itemprop="name"><a itemprop="url" href="/privacy.html" class="center-align">سياسة الخصوصية</a></li>
+          <li itemprop="name"><a itemprop="url" href="/about-as.html" class="center-align">حول الموقع</a></li>
+          <li itemprop="name"><a itemprop="url" href="/sitemap.html" class="center-align">خريطة الموقع</a></li>
+          <li itemprop="name"><a itemprop="url" href="/contact-as.html" class="center-align">إتصل بنا</a></li>
+          <li itemprop="name"><a itemprop="url" href="/support-as.html" class="center-align">إدعمنا</a></li>
+        </ul>  
+      </div> 
+    </header>
+ <main itemscope itemtype="http://schema.org/Article">
+    <h1 class="center" itemprop="name headline">هزاع البلوشي</h1>
+        <div dir="rtl" style="text-align: center;" itemprop="articleBody">المصحف المرتل برواية حفص عن نافع، بصوت القارئ هزاع البلوشي بجودة عالية (Mp3 128 kbps)</div><p>&nbsp;<br />
+        </br>
+          <div dir="rtl" style="text-align: center;">
+                 <a href="https://share.ipfs.io/#/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe" rel="noreferrer" target="_blank">تنزيل مباشر<i class="fa fa-cloud-download"></i></a>
+                  |    
+                  <a href="https://ipfs.io/ipfs/QmRTgVwKG4B7piMK5LA63BGpyWj8pPKYqRikXXjpkYDgut?filename=Hazaa_Albalouchi.torrent" rel="noreferrer" target="_blank">تنزيل تورنت<i class="fa fa-cloud-download"></i></a>
+                  |  
+              <a href="https://ipfs.io/ipfs/QmTp4onaETxNp1nsfNRrmKLV8TxjAyVnfvzL2ZSiMLUHhv?Quran_Hazaa_Albalouchi_playlist.m3u" rel="noreferrer" target="_blank">قائمة تشغيل M3u<i class="fa fa-headphones"></i></a>
+          </div>
+        </br>
+          <div style="padding: 10px; text-align: center;" id="shareit"></div>
+            <div id="app"></div>  
+            <script>
+            const player = new APlayer({
+                container: document.getElementById('app'),
+                mutex: true,
+                mini: false,
+                autoplay: false,
+                loop: 'all',
+                preload: 'metadata',
+                volume: 0.7,
+                mutex: true,
+                listFolded: false,
+                listMaxHeight: 90,
+                    audio: [
+            { artist: 'هزاع البلوشي',
+            name: '1 al-faatiHah سورة الفاتحة',
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-001.mp3',
+            cover: '',},
+            { artist: 'هزاع البلوشي', 
+            name: '12 yoosuf سورة يوسف', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-012.mp3',
+            cover: '',},
+            { artist: 'هزاع البلوشي', 
+            name: '13 ar-Ra`d سورة الرعد', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-013.mp3',
+            cover: '',},
+            { artist: 'هزاع البلوشي', 
+             name: '14 ibraheem سورة إبراهيم', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-014.mp3',
+            cover: '',},
+            { artist: 'هزاع البلوشي', 
+            name: '15 al-Hijr سورة الحجر', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-015.mp3',
+            cover: '',},
+            { artist: 'هزاع البلوشي', 
+            name: '16 an-naHl سورة النحل', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-016.mp3',
+            cover: '',},
+            { artist: 'هزاع البلوشي', 
+            name: '17 al-Isra سورة الإسراء', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-017.mp3',
+            cover: '',},
+            { artist: 'هزاع البلوشي', 
+            name: '18 al-kahf سورة الكهف', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-018.mp3',
+            cover: '',},
+            { artist: 'هزاع البلوشي', 
+            name: '19 maryam سورة مريم', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-019.mp3',
+            cover: '',},
+            { artist: 'هزاع البلوشي', 
+            name: '30 ar-room سورة الروم', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-030.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '31 luqmaan سورة لقمان', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-031.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '34 as-Saba سورة سبأ', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-034.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '36 yaa seen سورة يس', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-036.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '37 aS-Saaffaat سورة الصافات', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-037.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '38 Saad سورة ص', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-038.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '42 ash-shooraa سورة الشورى ', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-042.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '44 ad-dukhaan سورة الدخان', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-044.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '47 muHammad سورة محمد', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-047.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '49 al-Hujuraat سورة الحجرات', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-049.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '50 qaaf سورة ق', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-050.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '51 ad-dhaariyaat سورة الذاريات', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-051.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '52 aT-Toor سورة الطور', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-052.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '53 an-najm سورة النجم', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-053.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '54 al-qamar سورة القمر',
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-054.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '55 ar-raHmaan سورة الرحمن',
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-055.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '56 al-waaqi`ah سورة الواقعة', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-056.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '57 al-Hadeed سورة الحديد', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-057.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '67 al-mulk سورة الملك', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-067.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '68 al-qalam سورة القلم',
+             url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-068.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '69 al-Haaqqah سورة الحاقة', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-069.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '70 al-ma`aarij سورة المعارج',
+             url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-070.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '71 nooH سورة نوح', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-071.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '72 al-jinn سورة الجن',
+             url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-072.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '73 al-muzammil سورة المزمل', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-073.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '74 al-muddaththir سورة المدثر', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-074.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '75 al-qiyaamah سورة القيامة', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-075.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '76 al-insane سورة الإنسان', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-076.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '77 al-mursalaat سورة المرسلات', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-077.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '78 an-naba سورة النبأ', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-078.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '79 an-naazi`aat سورة النازعات', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-079.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '80 `abasa سورة عبس', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-080.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '81 at-takweer سورة التكوير', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-081.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '82 al-infiTaar سورة الانفطار', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-082.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '83 Al-Mutaffifeen سورة المطففين', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-083.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '84 al-inshiqaaq سورة الانشقاق', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-084.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '85 al-burooj سورة البروج', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-085.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '86 aT-Taariq سورة الطارق', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-086.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '87 al-A`laa سورة الأعلى', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-087.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '88 al-ghaashiyah سورة الغاشية',
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-088.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '89 al-fajr سورة الفجر', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-089.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '90 al-balad سورة البلد', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-090.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '91 ash-shams سورة الشمس', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-091.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '92 al-lail سورة الليل', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-092.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '93 aD-DuHaa سورة الضحى', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-093.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '94 ash-Sharh سورة الشرح', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-094.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+             name: '95 aT-Teen سورة التين', 
+             url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-095.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '96 al-`alaq سورة العلق', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-096.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '97 al-qadr سورة القدر', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-097.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '98 al-bayyinah سورة البينة', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-098.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '99 Az-Zalzala سورة الزلزلة', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-099.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+             name: '100 al-`aadiyaat سورة العاديات', 
+             url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-100.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '101 al-qaari`ah سورة القارعة', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-101.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '102 at-takaathur سورة التكاثر', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-102.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '103 al-`asr سورة العصر', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-103.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '104 al-humazah سورة الهمزة', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-104.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '105 al-feel سورة الفيل', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-105.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '106 al-quraish سورة قريش', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-106.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '107 al-maa`oon سورة الماعون', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-107.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '108 al-kauthar سورة الكوثر', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-108.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '109 al-kaafiroon سورة الكافرون', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-109.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '110 an-naSr سورة النصر', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-110.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '111 Al-Masad سورة المسد', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-111.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '112 al-ikhlaaS سورة الإخلاص', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-112.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+             name: '113 al-falaq سورة الفلق', 
+             url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-113.mp3', 
+              cover: '', },
+            { artist: 'هزاع البلوشي', 
+            name: '114 an-naas سورة الناس', 
+            url: 'https://ipfs.io/ipfs/Qma71vHV3HvCpWavacufXgHBKhvzZgUfCJ3yBVod2Njgxe/Quran_Hazaa_Albalouchi-114.mp3', 
+              cover: '', },
+                ],
+             });
+              Loadparam();
+              var postURL=window.location.href.split('?')[0];
+              var postseek='seek'+postURL;
+              player.on('play', function () { adds = setInterval(function() {setCookie(postseek,parseInt(player.audio.currentTime), 3); },10000); setCookie(postURL,player.list.index+1, 3);navigator.mediaSession.metadata.title = player.list.audios[player.list.index].name; navigator.mediaSession.metadata.artist = player.list.audios[player.list.index].artist;});
+          player.on('seeked', function () { adds = setInterval(function() {setCookie(postseek,parseInt(player.audio.currentTime), 3);},10000); setCookie(postURL,player.list.index+1, 3);});
+          player.on('pause', function(){clearInterval(adds);});
+            
+             
+            if ('mediaSession' in navigator) {
+              navigator.mediaSession.metadata = new MediaMetadata({
+                artwork: [
+                  { src: 'images/96x96.png',   sizes: '96x96',   type: 'image/png' },
+                  { src: 'images/128x128.png', sizes: '128x128', type: 'image/png' },
+                  { src: 'images/192x192.png', sizes: '192x192', type: 'image/png' },
+                  { src: 'images/256x256.png', sizes: '256x256', type: 'image/png' },
+                  { src: 'images/384x384.png', sizes: '384x384', type: 'image/png' },
+                  { src: 'images/512x512.png',sizes: '512x512', type: 'image/png' },
+                ]
+               });
+              navigator.mediaSession.setActionHandler('play', function() { player.play() });
+              navigator.mediaSession.setActionHandler('pause', function() { player.pause() });
+              navigator.mediaSession.setActionHandler('stop', function() { player.stop() });
+              navigator.mediaSession.setActionHandler('previoustrack', function() { player.skipBack() });
+              navigator.mediaSession.setActionHandler('nexttrack', function() { player.skipForward() });
+             }
+            </script> 
+            <div id="hit-counter" class="center">...</div>      
+    </main>
+    <footer itemscope itemtype="http://schema.org/WPFooter">
+      <!-- FOOTER -->
+      <!-- Add FIXED ACTION BUTTON -->
+      <div class="fixed-action-btn vertical">
+        <a class="btn-floating btn-large  blue-grey darken-4">
+            <i class="fa fa-globe"></i>
+        </a>
+        <ul>
+            <li><a target="_blank" rel="noreferrer" href="https://www.facebook.com/wathakker.wakf" title="Facebook" class="btn-floating  blue darken-4"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a target="_blank" rel="noreferrer" href="https://m.me/wathakker.wakf"title="Messenger" class="btn-floating blue lighten-1"><i class="fab fa-facebook-messenger"></i></a></li>
+            <li><a target="_blank" rel="noreferrer" href="https://twitter.com/adelpro" title="Twitter" class="btn-floating cyan lighten-1"><i class="fab fa-twitter"></i></a></li>
+            <li><a target="_blank" rel="noreferrer" href="https://www.t.me/wathakkerwakf" title="Telegram" class="btn-floating blue lighten-1"><i class="fab fa-telegram-plane"></i></a></li>
+            <!--<li><a target="_blank" rel="noreferrer" href="https://feedburner.google.com/fb/a/mailverify?uri=quranipfs&loc=ar_DZ" title="Email Subscription" class="btn-floating blue-grey lighten-1"> <i class="material-icons">mail</i></a></li>-->
+            <!--<li><a target="_blank" rel="noreferrer" href="http://feeds.feedburner.com/quranipfs" title="RSS Subscription" class="btn-floating red accent-1"><i class="fas fa-rss" aria-hidden="true"></i></a></li>-->
+       </div>
+      <div class="center-align grey-text">
+        <p><span itemprop="copyrightHolder" itemscope itemtype="http://schema.org/WebSite"><span itemprop="name">www.quranipfs.com</span></span> <span itemprop="copyrightYear">2021&#169;</span></p>
+      </div>
+      <a id="button"></a>
+      </footer>
+ <script>
+    //counter
+    counterinc(14);
+    //load url param
+    Loadparam();
+    loadshareit();
+</script>   
+</body>
+</html>
