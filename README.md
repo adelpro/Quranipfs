@@ -14,6 +14,7 @@ Copy paste the code on template.xml to your blogger, then you have to change the
 - "changethis4" to your telegram page name.
 - "changethis5" to your twitter name.
 - "changethis6" to your feedburner mailing id.
+- "changethis7" to your Fontawesome script id.
 
 Quranipfs contain:
 - PWA Ready
