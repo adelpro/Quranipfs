@@ -39,6 +39,7 @@ Quranipfs contain:
 - Fontawesome icons
 - Lazeloading
 - Youtube like preloader
+- hit counters 
 
 Script used:
 - cookie.js
@@ -48,6 +49,8 @@ Script used:
 "https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"
 - HLS
 "https://cdn.jsdelivr.net/npm/hls.js/dist/hls.min.js"
-Fontawesome
+- Fontawesome
 "www.fontawesome.com"
+- Hit counters
+"api.countapi.xyz"
 ...
