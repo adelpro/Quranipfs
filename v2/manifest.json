@@ -1,0 +1,152 @@
+{
+    "name": "QuranIPFS",
+    "short_name": "QuranIPFS",
+    "categories": ["social", "education", "books"],
+    "iarc_rating_id": "ab978b54-7f6f-46bc-a8b5-5e68c830b64c",
+    "icons": [
+      {
+        "src": "/images/16x16.png",
+        "sizes": "16x16",
+        "type": "image/png",
+        "purpose": "any maskable"
+    },
+    {
+      "src": "/images/32x32.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any maskable"
+  },
+  {
+    "src": "/images/96x96.png",
+    "sizes": "96x96",
+    "type": "image/png",
+    "purpose": "any maskable"
+  },
+  {
+    "src": "/images/128x128.png",
+    "sizes": "128x128",
+    "type": "image/png",
+    "purpose": "any maskable"
+  },
+  {
+    "src": "/images/144x144.png",
+    "sizes": "144x144",
+    "type": "image/png",
+    "purpose": "any maskable"
+  },
+  {
+    "src": "/images/192x192.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  },
+  {
+          "src": "./images/256x256.png",
+          "sizes": "256x256",
+          "type": "image/png",
+          "purpose": "any maskable"
+      },
+  {
+        "src": "./images/384x384.png",
+        "sizes": "384x384",
+        "type": "image/png",
+        "purpose": "any maskable"
+    },
+  {
+            "src": "./images/512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "shortcuts": [
+      {
+        "name": "ادعمنا",
+        "short_name": "ادعمنا",
+        "description": "معلومات حول الموقع",
+        "url": "./support-as.html",
+        "icons": [{ "src": "images/192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"}]
+      },
+         {
+      "name": "حول الموقع",
+      "short_name": "حول الموقع",
+      "description": "معلومات حول الموقع",
+      "url": "./aboutas.html",
+      "icons": [{ "src": "images/192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"}]
+    },
+        {
+      "name": "سياسة الخصوصية",
+      "short_name": "سياسة الخصوصية",
+      "description": "سياسة الخصوصية للموقع",
+      "url": "./privacy.html",
+      "icons": [{ "src": "images/192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" }]
+    },
+           {
+      "name": "خريطة الموقع",
+      "short_name": "خريط الموقع",
+      "description": "خريط الموقع",
+      "url": "./sitemap.html",
+      "icons": [{ "src": "images/192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" }]
+    },
+         {
+      "name": "مراسلتنا",
+      "short_name": "مراسلتنا",
+      "description": "مراسلة الموقع",
+      "url": "./contact-as.html",
+      "icons": [{ "src": "images/192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" }]
+    }
+  ],
+   "scope": "/",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "start_url": "./index.html",
+    "url": "./index.html",
+    "lang": "Arabic",
+    "orientation": "any",
+    "description": "يتيح لك الموقع الاستماع للقرآن الكريم مباشرة من المتصفح دون تحميل وبنوعية صوت عالية",
+
+"screenshots" : [
+  {
+    "src": "./images/1.png",
+    "sizes": "1080x2240",
+    "type": "image/png"
+  },
+   {
+    "src": "./images/2.png",
+    "sizes": "1080x2240",
+    "type": "image/png"
+  },
+   {
+    "src": "./images/3.png",
+    "sizes": "1080x2240",
+    "type": "image/png"
+  },
+   {
+    "src": "./images/4.png",
+    "sizes": "1080x2240",
+    "type": "image/png"
+  },
+  {
+    "src": "./images/pc.png",
+    "sizes": "1569x693",
+    "type": "image/png"
+  }
+],
+  "gcm_sender_id": "103953800507",
+
+"related_applications": [
+  {
+  "platform": "webapp",
+  "url": "https://www.quranipfs.com/manifest.json"
+  },
+  {
+    "platform": "play",
+    "id": "app.web.quranipfs.twa"
+  },
+  {
+    "platform": "windows",
+    "id": "40204adelpro.-Quranipfs"
+  }
+],
+"prefer_related_applications": true
+}
