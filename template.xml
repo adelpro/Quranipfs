@@ -1251,7 +1251,7 @@ function createSummaryAndThumb(pID){
 <link href='https://cdn.jsdelivr.net/npm/aplayer@1.10.0/dist/APlayer.min.css' rel='stylesheet'/>
 <script src='https://cdn.jsdelivr.net/npm/hls.js/dist/hls.min.js'/>
 <script src='https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js'/>  
-<script async='async' crossorigin='anonymous' src='https://kit.fontawesome.com/3fb402115d.js'/>  
+<script async='async' crossorigin='anonymous' src='https://kit.fontawesome.com/changethis7.js'/>  
 <!-- social media share Buttons-->  
 <b:if cond='data:blog.pageType == &quot;item&quot;'>
  <style type='text/css'>
