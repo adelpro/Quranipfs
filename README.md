@@ -1,8 +1,6 @@
 # Quranipfs
 Quran over IPFS and Blogger streaming
 
-website: www.quranipfs.com
-
 V1:( https://quranipfs.blogspot.com )
 
 About this version:
@@ -12,8 +10,8 @@ we are using blogger to host the website, and we are offering our templete for f
 Installation:
 
 change these parameters:
-- changethis1 ->facebook admin ID
-- changethis2 ->facebook author name 
+- changethis1 -> facebook admin ID
+- changethis2 -> facebook author name 
 - changethis3 -> twitter
 - changethis4 -> author name
 - changethis5 -> yandex meta tag
@@ -55,13 +53,14 @@ V2: ( www.quranipfs.com )
 Installation:
 
 - Change these parameters:
-- changethis1 ->facebook admin ID
+- changethis1 -> facebook admin ID
 - changethis2 -> facebook author name
 - changethis3 -> author name
 - changethis4 -> facebook page name
 - changethis5 -> messenger name
 - changethis6 -> twitter
 - changethis7 -> telegram
+- change 'xxx' in 'firebase.js' with your firebase configuration
 
 technologies employed:
 - Materialize (css, icons)
