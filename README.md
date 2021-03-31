@@ -10,17 +10,18 @@ About this version:
 we are using blogger to host the website, and we are offering our templete for free, open source, no oscured or crypted javascript.
 
 Installation:
+
 change these parameters:
-changethis1 ->facebook admin ID
-changethis2 ->facebook author name 
-changethis3 -> twitter
-changethis4 -> author name
-changethis5 -> yandex meta tag
-changethis6 -> fontawsome reference
-changethis7 -> feedburner
-changethis8 -> facebook page
-changethis9 -> telegram
-changethis10 -> feedburner mailing reference
+- changethis1 ->facebook admin ID
+- changethis2 ->facebook author name 
+- changethis3 -> twitter
+- changethis4 -> author name
+- changethis5 -> yandex meta tag
+- changethis6 -> fontawsome reference
+- changethis7 -> feedburner
+- changethis8 -> facebook page
+- changethis9 -> telegram
+- changethis10 -> feedburner mailing reference
 
 Technologies employed:
 
@@ -53,14 +54,14 @@ V2:
 
 Installation:
 
-Change these parameters:
-changethis1 ->facebook admin ID
-changethis2 -> facebook author name
-changethis3 -> author name
-changethis4 -> facebook page name
-changethis5 -> messenger name
-changethis6 -> twitter
-changethis7 -> telegram
+- Change these parameters:
+- changethis1 ->facebook admin ID
+- changethis2 -> facebook author name
+- changethis3 -> author name
+- changethis4 -> facebook page name
+- changethis5 -> messenger name
+- changethis6 -> twitter
+- changethis7 -> telegram
 
 technologies employed:
 - Materialize (css, icons)
