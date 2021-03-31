@@ -3,7 +3,7 @@ Quran over IPFS and Blogger streaming
 
 website: www.quranipfs.com
 
-V1:
+V1:( https://quranipfs.blogspot.com )
 
 About this version:
 
@@ -50,7 +50,7 @@ Technologies employed:
 
 --------------------------------
 
-V2:
+V2: ( www.quranipfs.com )
 
 Installation:
 
