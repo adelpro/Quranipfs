@@ -35,37 +35,28 @@
 <meta content='512' property='og:image:height'/>
 </b:if>
 <meta expr:content='data:blog.title' property='og:site_name'/>
-<meta content='100001161316746' property='fb:admins'/>
+<meta content='changethis1' property='fb:admins'/>
 <b:if cond='data:blog.pageType == &quot;item&quot;'>
-<meta content='https://www.facebook.com/changethis1' property='article:author'/>
+<meta content='https://www.facebook.com/changethis2' property='article:author'/>
 </b:if>
 <meta content='ar_AR' property='og:locale'/>
 <meta content='DZ' name='geo.region'/>
 <meta content='summary' name='twitter:card'/>
-<meta content='@adelpro' name='twitter:site'/>
-<meta content='@adelpro' name='twitter:creator'/>
+<meta content='@changethis3' name='twitter:site'/>
+<meta content='@changethis3' name='twitter:creator'/>
 <b:if cond='data:blog.pageType == &quot;item&quot;'>
 	<meta expr:content='data:blog.pageName' name='twitter:title'/><b:else/>
 	<meta expr:content='data:blog.pageTitle' name='twitter:title'/>
 </b:if>
-<!--<b:if cond='data:blog.metaDescription'>
-	<meta expr:content='data:blog.metaDescription' name='twitter:description'/><b:else/>
-	<meta expr:content='data:post.snippet' name='twitter:description'/>
-
-</b:if>
--->
 <b:if cond='data:blog.postImageUrl'>
 	<meta expr:content='data:blog.postImageUrl' name='twitter:image:src'/><b:else/>
 </b:if>
 <meta content='Algeria' name='geo.placename'/>
-<meta content='BENYAHIA adel' name='Author'/>
+<meta content='changethis4' name='Author'/>
 <meta content='width=device-width, user-scalable=no' name='viewport'/>
 <b:include data='blog' name='all-head-content'/>
 <meta content='قران, مصحف, سعد الغامدي, عبد الباسط عبد الصمد, ماهر المعيقلي, فارس علبد, الشريم' name='keywords'/>
-<!--<b:if cond='data:blog.pageType == &quot;index&quot;'>
-<meta content='يتيح لك الموقع الاستماع للقرآن الكريم مباشرة من المتصفح&#1548; دون تحميل وبنوعية صوت عالية مع إمكانية التحميل بسرعات عالية' name='description'/>
-</b:if>-->
-<meta content='b9726770d7dd9c46' name='yandex-verification'/>
+<meta content='changethis' name='yandex-verification'/>
 <meta charset='UTF-8'/>
 <meta content='width=device-width' name='viewport'/>
 <b:include data='blog' name='all-head-content'/>
@@ -1251,7 +1242,7 @@ function createSummaryAndThumb(pID){
 <link href='https://cdn.jsdelivr.net/npm/aplayer@1.10.0/dist/APlayer.min.css' rel='stylesheet'/>
 <script src='https://cdn.jsdelivr.net/npm/hls.js/dist/hls.min.js'/>
 <script src='https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js'/>  
-<script async='async' crossorigin='anonymous' src='https://kit.fontawesome.com/3fb402115d.js'/>  
+<script async='async' crossorigin='anonymous' src='https://kit.fontawesome.com/changethis6.js'/>  
 <!-- social media share Buttons-->  
 <b:if cond='data:blog.pageType == &quot;item&quot;'>
  <style type='text/css'>
@@ -1359,15 +1350,6 @@ border-radius: 50%;
 <link href='//resources.blogblog.com' rel='dns-prefetch'/>
 <link href='//feedburner.google.com' rel='dns-prefetch'/>
 <link href='//cdn.jsdelivr.net' rel='dns-prefetch'/>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async='async' src='https://www.googletagmanager.com/gtag/js?id=G-JX5BTQLB5N'/>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag(&#39;js&#39;, new Date());
-
-  gtag(&#39;config&#39;, &#39;G-JX5BTQLB5N&#39;);
-</script>
 <script>
 //<![CDATA[
 // LoadPositionURL
@@ -2491,11 +2473,11 @@ function getCookie(name) {
     <b:widget-settings>
       <b:widget-setting name='content'>&lt;div align=&#39;center&#39; itemscope=&#39;itemscope&#39; itemtype=&#39;http://schema.org/WPFooter&#39;&gt;
 www.quranipfs.com &#169; [ 
-&lt;a href=http://feeds.feedburner.com/changethis2 title=&#39;RSS&#39;  target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;&lt;i class=&#39;fa fa-rss&#39;/&gt;&lt;/i&gt;&lt;/a&gt;
-&lt;a href=https://www.facebook.com/changethis3 title=&#39;Facebook&#39;  target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;&lt;i class=&#39;fa fa-facebook-f&#39;/&gt;&lt;/i&gt;&lt;/a&gt;
-&lt;a href=https://www.t.me/changethis4 title=&#39;Telegram&#39;  target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;&lt;i class=&#39;fa fa-telegram&#39;/&gt;&lt;/i&gt;&lt;/a&gt;
-&lt;a href=https://www.twitter.com/changethis5 title=&#39;Twitter&#39;  target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;&lt;i class=&#39;fa fa-twitter&#39;/&gt;&lt;/i&gt;&lt;/a&gt;
-&lt;a href=&quot;https://feedburner.google.com/fb/a/mailverify?uri=changethis6&amp;amp;loc=en_US&quot; title=&#39;الاشتراك بالموقع عبر البريد الالكتروني&#39;  target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;&lt;i class=&#39;fa fa-envelope-open-text&#39;/&gt;&lt;/i&gt;&lt;/a&gt; ]
+&lt;a href=http://feeds.feedburner.com/changethis7 title=&#39;RSS&#39;  target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;&lt;i class=&#39;fa fa-rss&#39;/&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a href=https://www.facebook.com/changethis8 title=&#39;Facebook&#39;  target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;&lt;i class=&#39;fa fa-facebook-f&#39;/&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a href=https://www.t.me/changethis9 title=&#39;Telegram&#39;  target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;&lt;i class=&#39;fa fa-telegram&#39;/&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a href=https://www.twitter.com/changethis3 title=&#39;Twitter&#39;  target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;&lt;i class=&#39;fa fa-twitter&#39;/&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a href=&quot;https://feedburner.google.com/fb/a/mailverify?uri=changethis10&amp;amp;loc=en_US&quot; title=&#39;الاشتراك بالموقع عبر البريد الالكتروني&#39;  target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;&lt;i class=&#39;fa fa-envelope-open-text&#39;/&gt;&lt;/i&gt;&lt;/a&gt; ]
 &lt;/div&gt;</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
