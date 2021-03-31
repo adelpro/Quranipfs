@@ -1,14 +1,14 @@
     // Your web app's Firebase configuration
     // For Firebase JS SDK v7.20.0 and later, measurementId is optional
     var firebaseConfig = {
-      apiKey: "AIzaSyD37mmCPQ-Asks1Z3OGX-HOFPN0BiAt6MI",
-      authDomain: "quranipfs.firebaseapp.com",
-      databaseURL: "https://quranipfs-default-rtdb.europe-west1.firebasedatabase.app",
-      projectId: "quranipfs",
-      storageBucket: "quranipfs.appspot.com",
-      messagingSenderId: "519471380945",
-      appId: "1:519471380945:web:13f71619f7335c5374c8f0",
-      measurementId: "G-HMP2FXHC83"
+      apiKey: "xxx",
+      authDomain: "xxx",
+      databaseURL: "xxx",
+      projectId: "xxx",
+      storageBucket: "xxx",
+      messagingSenderId: "xxx",
+      appId: "xxx",
+      measurementId: "xxx"
     };
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
