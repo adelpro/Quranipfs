@@ -62,20 +62,25 @@ Installation:
 - changethis7 -> telegram
 - change 'xxx' in 'firebase.js' with your firebase configuration
 
-technologies employed:
-- Materialize (css, icons)
+Technologies employed:
+
+- PWA ( Service worker, IOS and Android compatible, manifest file...)
+- multilingual website (Google optimized)
+- Materializecss
 - JQuery
+- Fontawsome icons
 - Firebase hosting and database
 - Responsive cards
 - Sort reciters by search, alphabet, favorite, most viewed...
 - firebase hit counter
--  Youtube like preloader progress bar
+- Youtube like preloader progress bar
 - Back to top icon
 - Url parameters
 - Cookies (js-cookie)
 - SEO meta tags (Google, Facebook, Twitter, Pinterest...)
 - Structured data and cards
-- Using IPFS to stream and download mp3
+- Using IPFS to stream and download mp3 files
+- Using Torrent to download mp3 files
 - M3U files
 - HTML5 media player (APlayer)
 - Stylish round social sharing icons
