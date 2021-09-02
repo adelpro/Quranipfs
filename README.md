@@ -1,5 +1,7 @@
 # Quranipfs
-Quran over IPFS and Blogger streaming
+![QuranIPFS](https://www.quranipfs.com/images/256x256.png)
+
+Quran over IPFS streaming
 
 V1: ( https://quranipfs.blogspot.com )
 
