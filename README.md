@@ -97,14 +97,18 @@ Technologies employed:
 [2]: https://www.facebook.com/wathakker.wakf
 [3]: https://github.com/adelpro/Quranipfs
 
-<h2>Contact us</h2>
+## Contact us
  
 [![alt text][1.1]][1]
 [![alt text][2.1]][2]
 [![alt text][3.1]][3]
 
+## Our applications
+<a target="_blank" rel="noopener" title="Google Play" href="https://play.google.com/store/apps/details?id=app.web.quranipfs.twa&amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img class="img-responsive" alt="احصل عليه من Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/ar_badge_web_generic.png" style="width: 180px; height: 80px;"></a>
+<a target="_blank" rel="noopener" title="Microsoft Store" href="https://www.microsoft.com/store/apps/9NK92VVVPB8B?cid=storebadge&amp;ocid=badge"><img class="img-responsive" src="https://developer.microsoft.com/store/badges/images/Arabic_get_it_from_MS.png" alt="احصل عليه من Windows Store" style="width: 180px; height: 80px;"></a>
+<a target="_blank" rel="noopener" title="Galaxy Store" href="https://galaxy.store/quranipfs"><img src="https://img.samsungapps.com/seller/images/badges/galaxyStore/png_big/GalaxyStore_English.png?ver=1619454838000" alt="احصل عليه من Samsung Galaxy Store" style="width: 180px; height: 80px;"></a>
 
-# Support us ❤️
+## Support us ❤️
 <a href="https://www.buymeacoffee.com/Adel.benyahia" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-green.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 <a href="https://https://www.paypal.me/adelbenyahia" target="_blank"><img src="https://github.com/adelpro/adelpro.github.io/raw/818b737d35a084412e0a7b5186efa908270bb35a/paypal-logo.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
