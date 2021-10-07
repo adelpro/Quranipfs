@@ -88,3 +88,25 @@ Technologies employed:
 - Stylish round social sharing icons
 - Media Elements ready
 - HLS: to stream and cache MP3
+
+[1.1]: http://i.imgur.com/tXSoThF.png (twitter icon with padding)
+[2.1]: http://i.imgur.com/P3YfQoD.png (facebook icon with padding)
+[3.1]: http://i.imgur.com/0o48UoR.png (github icon with padding)
+
+[1]: https://www.twitter.com/quranipfs
+[2]: https://www.facebook.com/wathakker.wakf
+[3]: https://github.com/adelpro/Quranipfs
+
+<h2>Contact us</h2>
+ 
+[![alt text][1.1]][1]
+[![alt text][2.1]][2]
+[![alt text][3.1]][3]
+
+
+# Support us ❤️
+<a href="https://www.buymeacoffee.com/Adel.benyahia" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-green.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+<a href="https://https://www.paypal.me/adelbenyahia" target="_blank"><img src="https://github.com/adelpro/adelpro.github.io/raw/818b737d35a084412e0a7b5186efa908270bb35a/paypal-logo.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
+#
+![](https://komarev.com/ghpvc/?username=adelpro&style=flat-squar&color=brightgreen)
