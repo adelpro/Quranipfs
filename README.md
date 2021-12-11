@@ -113,7 +113,7 @@ Technologies employed:
 ## Support us ❤️
 <a href="https://www.buymeacoffee.com/Adel.benyahia" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-green.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 <a href="https://https://www.paypal.me/adelbenyahia" target="_blank"><img src="https://github.com/adelpro/adelpro.github.io/raw/818b737d35a084412e0a7b5186efa908270bb35a/paypal-logo.png" alt="Buy Me A Coffee" height="41" width="174"></a>
-<a href="bitcoin:1PstR1HYTG8FbVRR7YZhQftYumVAURXuq7;amount=0.0037"><img src="https://www.drupal.org/files/project-images/bitcoindonate.png" alt="Bitcoin Donate Button"></a>
+<img src="https://www.drupal.org/files/project-images/bitcoindonate.png" alt="Bitcoin Donate Button">: 1PstR1HYTG8FbVRR7YZhQftYumVAURXuq7
 
 #
 ![](https://komarev.com/ghpvc/?username=adelpro&style=flat-squar&color=brightgreen)
