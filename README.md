@@ -112,7 +112,7 @@ Technologies employed:
 
 ## Support us ❤️
 [![Buymeacoffee](https://badgen.net/badge/icon/buymeacoffee?icon=buymeacoffee&label)](https://www.buymeacoffee.com/Adel.benyahia/)
-[![PayPal](https://img.icons8.com/android/24/ffffff/paypal.png)](https://www.paypal.com/paypalme/adelbenyahia)
+[![PayPal](https://badgen.net/badge/paypal/PayPal/003087?icon=https://simpleicons.now.sh/paypal/fff)](https://www.paypal.com/paypalme/adelbenyahia)
 [![BitCoin](https://badgen.net/badge/icon/bitcoin?icon=bitcoin&label)](bitcoin:1PstR1HYTG8FbVRR7YZhQftYumVAURXuq7?label=Quranipfs&message=Payment%20to%20Quranipfs)
 #
 ![](https://komarev.com/ghpvc/?username=adelpro&style=flat-squar&color=brightgreen)
