@@ -48,7 +48,7 @@ change these parameters:
 ## V2: ( www.quranipfs.com )
 
 ### About this version:
-we are using HTML / CSS / JS for the frontand and Firebase IPFS to the backend, and we are offering our templete for free, open source.
+we are using HTML / CSS / JS for the frontend and Firebase IPFS to the backend, and we are offering our source code for free, open source.
 
 ### Installation:
 - Change these parameters:
