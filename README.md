@@ -6,7 +6,7 @@ Quran over IPFS streaming
 ## V1: ( https://quranipfs.blogspot.com )
 
 ### About this version:
-we are using blogger to host the website, and we are offering our templete for free, open source, no oscured or crypted javascript.
+we are using blogger to host the website, and we are offering our template for free, open source, no obscured or crypted javascript.
 
 ### Installation:
 change these parameters:
