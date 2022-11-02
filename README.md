@@ -87,9 +87,11 @@ we are using HTML / CSS / JS for the frontend and Firebase IPFS to the backend, 
 - HLS: to stream and cache MP3
 
 ## Contact us
-[![alt text][1.1]][1]
-[![alt text][2.1]][2]
-[![alt text][3.1]][3]
+
+[![twitter][1.1]][1]
+[![facebook][2.1]][2]
+[![github][3.1]][3]
+[![medium][6.1]][6]
 
 ## Our applications
 <a target="_blank" rel="noopener" title="Google Play" href="https://play.google.com/store/apps/details?id=app.web.quranipfs.twa&amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img class="img-responsive" alt="احصل عليه من Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/ar_badge_web_generic.png" style="width: 180px; height: 80px;"></a>
@@ -102,6 +104,14 @@ we are using HTML / CSS / JS for the frontend and Firebase IPFS to the backend, 
 [![Buymeacoffee](https://badgen.net/badge/icon/buymeacoffee?icon=buymeacoffee&label)](https://www.buymeacoffee.com/Adel.benyahia/)
 [![PayPal](https://badgen.net/badge/icon/PayPal?icon=https://simpleicons.now.sh/paypal/fff&label)](https://www.paypal.com/paypalme/adelbenyahia)
 [![BitCoin](https://badgen.net/badge/icon/bitcoin?icon=bitcoin&label)](bitcoin:1PstR1HYTG8FbVRR7YZhQftYumVAURXuq7?label=Quranipfs&message=Payment%20to%20Quranipfs)
+
+## Thank you
+
+[![Stargazers repo roster for @adelpro/check-hadith](https://reporoster.com/stars/adelpro/check-hadith)](https://github.com/adelpro/check-hadith/stargazers)
+
+[![Forkers repo roster for @adelpro/check-hadith](https://reporoster.com/forks/adelpro/check-hadith)](https://github.com/adelpro/check-hadith/network/members)
+
+
 ##
 ![](https://komarev.com/ghpvc/?username=adelpro&style=flat-squar&color=brightgreen)
 
@@ -112,3 +122,5 @@ we are using HTML / CSS / JS for the frontend and Firebase IPFS to the backend, 
 [1]: https://www.twitter.com/quranipfs
 [2]: https://www.facebook.com/wathakker.wakf
 [3]: https://github.com/adelpro/Quranipfs
+[6]: adelpro.medium.com
+[6.1]:https://i.imgur.com/tijdQEw.png "medium icon with padding"
