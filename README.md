@@ -107,9 +107,9 @@ we are using HTML / CSS / JS for the frontend and Firebase IPFS to the backend, 
 
 ## Thank you
 
-[![Stargazers repo roster for @adelpro/check-hadith](https://reporoster.com/stars/adelpro/check-hadith)](https://github.com/adelpro/check-hadith/stargazers)
+[![Stargazers repo roster for @adelpro/check-hadith](https://reporoster.com/stars/adelpro/Quranipfs)](https://github.com/adelpro/Quranipfs/stargazers)
 
-[![Forkers repo roster for @adelpro/check-hadith](https://reporoster.com/forks/adelpro/check-hadith)](https://github.com/adelpro/check-hadith/network/members)
+[![Forkers repo roster for @adelpro/check-hadith](https://reporoster.com/forks/adelpro/Quranipfs)](https://github.com/adelpro/Quranipfs/network/members)
 
 
 ##
